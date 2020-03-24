@@ -1,11 +1,15 @@
 {
     "name": "mremi/url-shortener",
     "type": "library",
-    "description": "A PHP5 library using API to shorten/expand URL",
+    "description": "A PHP5/PHP7 library using API to shorten/expand URL",
     "keywords": ["url", "shortener", "api"],
-    "homepage": "https://github.com/mremi/UrlShortener",
+    "homepage": "https://github.com/mcaskill/UrlShortener",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Chauncey McAskill",
+            "email": "chauncey@mcaskill.ca"
+        },
         {
             "name": "Rémi Marseille",
             "email": "marseille.remi@gmail.com"

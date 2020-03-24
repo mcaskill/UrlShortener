@@ -3,13 +3,21 @@ URL shortener library
 
 This library allows you to shorten a URL, reverse is also possible.
 
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/c4e06c9d-547c-47bb-8abb-fccc68b7df7a/big.png)](https://insight.sensiolabs.com/projects/c4e06c9d-547c-47bb-8abb-fccc68b7df7a)
+> ### Drop-in replacement for [`mremi/url-shortener`](https://github.com/mremi/UrlShortener)
+>
+> This fork provides support for any pending features on the main repository.
+>
+> As of [2020-03-26](https://github.com/mremi/UrlShortener/releases/tag/v2.3.0),
+> both repositories are at parity.
 
-[![Build Status](https://api.travis-ci.org/mremi/UrlShortener.png?branch=master)](https://travis-ci.org/mremi/UrlShortener)
-[![Total Downloads](https://poser.pugx.org/mremi/url-shortener/downloads.png)](https://packagist.org/packages/mremi/url-shortener)
-[![Latest Stable Version](https://poser.pugx.org/mremi/url-shortener/v/stable.png)](https://packagist.org/packages/mremi/url-shortener)
-[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/mremi/UrlShortener/badges/quality-score.png?s=34c4ba6b0cd272673fa121c32a63e1ce668b9b2a)](https://scrutinizer-ci.com/g/mremi/UrlShortener/)
-[![Code Coverage](https://scrutinizer-ci.com/g/mremi/UrlShortener/badges/coverage.png?s=7a8c3388ae7b50f35fd548b4b7874526c634e8c5)](https://scrutinizer-ci.com/g/mremi/UrlShortener/)
+<!--[![SensioLabsInsight](https://insight.sensiolabs.com/projects/c4e06c9d-547c-47bb-8abb-fccc68b7df7a/big.png)](https://insight.sensiolabs.com/projects/c4e06c9d-547c-47bb-8abb-fccc68b7df7a)-->
+
+[![Build Status](https://api.travis-ci.org/mcaskill/UrlShortener.png?branch=master)](https://travis-ci.org/mcaskill/UrlShortener)<!--
+[![Total Downloads](https://poser.pugx.org/mcaskill/url-shortener/downloads.png)](https://packagist.org/packages/mcaskill/url-shortener)--><!--
+[![Latest Stable Version](https://poser.pugx.org/mcaskill/url-shortener/v/stable.png)](https://packagist.org/packages/mcaskill/url-shortener)-->
+[![Latest Stable Version](https://img.shields.io/github/v/tag/mcaskill/UrlShortener?label=stable&sort=semver)](https://github.com/mcaskill/UrlShortener)<!--
+[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/mcaskill/UrlShortener/badges/quality-score.png?s=34c4ba6b0cd272673fa121c32a63e1ce668b9b2a)](https://scrutinizer-ci.com/g/mcaskill/UrlShortener/)--><!--
+[![Code Coverage](https://scrutinizer-ci.com/g/mcaskill/UrlShortener/badges/coverage.png?s=7a8c3388ae7b50f35fd548b4b7874526c634e8c5)](https://scrutinizer-ci.com/g/mcaskill/UrlShortener/)-->
 
 **Basic Docs**
 
@@ -27,9 +35,22 @@ This library allows you to shorten a URL, reverse is also possible.
 
 ## Installation
 
-The preferred method of installation is via [Composer](https://getcomposer.org/). Run the following
-command to install the package and add it as a requirement to your project's
-`composer.json`:
+The preferred method of installation is via [Composer](https://getcomposer.org/).
+
+By default Composer only uses the Packagist repository. Add the following
+to your main `composer.json` to override the default source:
+
+```json
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/mcaskill/UrlShortener"
+    }
+]
+```
+
+Run the following command to install the package and add it as a requirement
+to your project's `composer.json`:
 
 ```bash
 composer require mremi/url-shortener
