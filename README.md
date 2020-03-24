@@ -12,7 +12,7 @@ This library allows you to shorten a URL, reverse is also possible.
 
 <!--[![SensioLabsInsight](https://insight.sensiolabs.com/projects/c4e06c9d-547c-47bb-8abb-fccc68b7df7a/big.png)](https://insight.sensiolabs.com/projects/c4e06c9d-547c-47bb-8abb-fccc68b7df7a)-->
 
-[![Build Status](https://api.travis-ci.org/mcaskill/UrlShortener.png?branch=master)](https://travis-ci.org/mcaskill/UrlShortener)<!--
+[![Build Status](https://api.travis-ci.com/mcaskill/UrlShortener.svg?branch=master)](https://travis-ci.com/github/mcaskill/UrlShortener)<!--
 [![Total Downloads](https://poser.pugx.org/mcaskill/url-shortener/downloads.png)](https://packagist.org/packages/mcaskill/url-shortener)--><!--
 [![Latest Stable Version](https://poser.pugx.org/mcaskill/url-shortener/v/stable.png)](https://packagist.org/packages/mcaskill/url-shortener)-->
 [![Latest Stable Version](https://img.shields.io/github/v/tag/mcaskill/UrlShortener?label=stable&sort=semver)](https://github.com/mcaskill/UrlShortener)<!--

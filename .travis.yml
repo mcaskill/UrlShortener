@@ -2,6 +2,10 @@ os: linux
 dist: bionic
 language: php
 
+branches:
+  only:
+    - master
+
 jobs:
   include:
     - php: 5.6
